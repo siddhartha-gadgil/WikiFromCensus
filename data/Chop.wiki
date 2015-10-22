@@ -32,9 +32,6 @@ The nearest Veternary hospital is at a distance of > 10 km from the village.
 The nearest Mobile health centre is at a distance of > 10 km from the village.
 The nearest Family welfare centre is at a distance of > 10 km from the village.
 
-
-//Primary health centre (PHC),Primary health sub centre (PHS),centre (MCW),(TBC),Hospital-allopathic (HA),Hospital-alternative  medicine (HO),Dispensary (D),Veterinary hospital (VH),Mobile health clinic (MHC),Family welfare centre (FWC),
-//Charitable non Govt. hospital/Nursing home.,Medical practitioner with MBBS Degree,Medical practitioner with other  degree,Medical practitioner with no degree,Traditional practitioner  and faith healer .,Medicine Shop,Others
 == Drinking water ==
 
 Drinking water from taps facility is available in the village

@@ -48,7 +48,7 @@ class WikiFromCensus(filename: String){
     case Number(k) => s"There are $k ${desc}s in the village"
     case _ => s"The nearest $desc is at a distance of ${abc(s)} from the village."
   }
-  
+
   def numOrNearest(s: String, desc: String, descs: String) = s match {
     case Number(1) => s"There is 1 $desc in the village"
     case Number(k) => s"There are $k ${descs} in the village"
@@ -122,9 +122,6 @@ ${numOrNearest(row(28), "Veternary hospital")}
 ${numOrNearest(row(29), "Mobile health centre")}
 ${numOrNearest(row(30), "Family welfare centre")}
 
-
-//Primary health centre (PHC),Primary health sub centre (PHS),centre (MCW),(TBC),Hospital-allopathic (HA),Hospital-alternative  medicine (HO),Dispensary (D),Veterinary hospital (VH),Mobile health clinic (MHC),Family welfare centre (FWC),
-//Charitable non Govt. hospital/Nursing home.,Medical practitioner with MBBS Degree,Medical practitioner with other  degree,Medical practitioner with no degree,Traditional practitioner  and faith healer .,Medicine Shop,Others
 == Drinking water ==
 
 ${available(row(38), "Drinking water from taps")}
